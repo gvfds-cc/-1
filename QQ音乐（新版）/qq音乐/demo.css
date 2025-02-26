@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+.mod-header *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mod-header{
+    display: flex;
+    width: 100%;
+    height: 141px;
+    /* border: 1px black solid; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inhead{
+    /* border: 1px red solid; */
+    width: 1200px;
+    height: 90px;
+    justify-content: space-between;
+    border-bottom: 1px #e5e5e5 solid;
+}
+.n1{
+    justify-content: center;
+    align-items: center;
+}
+.nav1{
+    height: 90px;
+    font-size: 18px;
+    align-items: center;
+    padding: 0 20px;
+}
+.current{  
+    color: white;
+    background-color: #31c27c;
+}
+.inhead input{
+    height: 36px;
+    width: 220px;
+    border-radius: 3px;
+    text-indent: 8px;
+    border-radius: 3px;
+    border: 1px #c9c9c9 solid;
+}
+.inhead2 *{
+    /* border: 1px blue solid; */
+    display: flex;
+    justify-self:end;
+    line-height: 38px;
+}
+.logo{
+    width: 170px;
+    height: 46px;
+    /* border: 1px black solid; */
+    align-items: center;
+    margin-right: 18px;
+}
+.register{
+    width: 38px;
+    height: 100%;
+    margin-right: 10px;
+}
+.VIP{
+    font-size: 13px;
+    width: 122px;
+    height: 100%;
+    margin-right: 10px;
+    background-color: #31c27c;
+    color: white;
+    text-align: center;
+}
+.money{
+    text-align: center;
+    font-size: 13px;
+    width: 88px;
+    height: 100%;
+    border: 1px #ccc solid;
+}
+.subnav{
+   width: 1200px; 
+   height: 50px;
+   /* border: 1px black solid; */
+   justify-content: start;
+   padding-left: 13%;
+
+}
+.nav3{
+    margin-right: 47px;
+    align-items: center;
+    /* border: 1px black solid; */
+}
+.nav3:hover,.nav7:hover,.nav1:hover,.register:hover{
+    color: #31c27c;
+}
